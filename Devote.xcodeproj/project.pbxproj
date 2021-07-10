@@ -23,6 +23,7 @@
 		E27728FE2699DDE900F87D12 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27728FD2699DDE900F87D12 /* BlankView.swift */; };
 		E27729002699EC4800F87D12 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27728FF2699EC4800F87D12 /* ListRowItemView.swift */; };
 		E27729022699EE2500F87D12 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27729012699EE2500F87D12 /* CheckboxStyle.swift */; };
+		E27729042699F41700F87D12 /* SounPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27729032699F41700F87D12 /* SounPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E27728FD2699DDE900F87D12 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		E27728FF2699EC4800F87D12 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		E27729012699EE2500F87D12 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		E27729032699F41700F87D12 /* SounPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SounPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				E24C910026989BE6000DF94E /* Const.swift */,
+				E27729032699F41700F87D12 /* SounPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24C90E626989052000DF94E /* Persistence.swift in Sources */,
+				E27729042699F41700F87D12 /* SounPlayer.swift in Sources */,
 				E27728FA2699D90A00F87D12 /* BackgroundImageView.swift in Sources */,
 				E24C90DF26989050000DF94E /* ContentView.swift in Sources */,
 				E27728F82699D57900F87D12 /* HideKeyboardExtension.swift in Sources */,
