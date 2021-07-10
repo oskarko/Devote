@@ -17,6 +17,7 @@
 		E24C90F4269890D6000DF94E /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24C90F1269890D6000DF94E /* sound-tap.mp3 */; };
 		E24C90F5269890D6000DF94E /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24C90F2269890D6000DF94E /* sound-ding.mp3 */; };
 		E24C910126989BE6000DF94E /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24C910026989BE6000DF94E /* Const.swift */; };
+		E27728F82699D57900F87D12 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27728F72699D57900F87D12 /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E24C90F1269890D6000DF94E /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		E24C90F2269890D6000DF94E /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		E24C910026989BE6000DF94E /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		E27728F72699D57900F87D12 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		E24C90F82698911F000DF94E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E27728F72699D57900F87D12 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				E24C90E626989052000DF94E /* Persistence.swift in Sources */,
 				E24C90DF26989050000DF94E /* ContentView.swift in Sources */,
+				E27728F82699D57900F87D12 /* HideKeyboardExtension.swift in Sources */,
 				E24C90E926989052000DF94E /* Devote.xcdatamodeld in Sources */,
 				E24C90DD26989050000DF94E /* DevoteApp.swift in Sources */,
 				E24C910126989BE6000DF94E /* Const.swift in Sources */,
